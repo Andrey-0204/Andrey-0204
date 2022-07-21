@@ -10,6 +10,8 @@ namespace RandChislo
     {
         static void Main(string[] args)
         {
+            Random rand = new Random();
+            Console.WriteLine(rand.Next(0,99));
         }
     }
 }
